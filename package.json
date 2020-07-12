@@ -16,5 +16,6 @@
   "scripts": {
     "build": "gulp css",
     "start": "gulp start"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
