@@ -1,0 +1,98 @@
+.wrapper-progress-bar {
+  width: 528px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  min-height: 158px; }
+
+.circle-out-blue {
+  position: relative;
+  width: 136px;
+  height: 136px;
+  border-radius: 50%;
+  background: #232323;
+  overflow: hidden; }
+
+.circle-in-blue {
+  position: absolute;
+  width: 132px;
+  height: 132px;
+  margin: 2px;
+  border-radius: 50%;
+  background-image: url("../css/style/img/fist.png"); }
+
+.progress-blue {
+  height: 250px;
+  width: 250px;
+  background: #ffffff;
+  position: absolute;
+  top: -110px;
+  left: -60px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+  -webkit-transform-origin: 110px 110px;
+  transform-origin: 110px 110px;
+  -webkit-transition: all .3s;
+  transition: all .3s; }
+
+.circle-out-red {
+  position: relative;
+  width: 136px;
+  height: 136px;
+  border-radius: 50%;
+  background: #232323;
+  overflow: hidden; }
+
+.circle-in-red {
+  position: absolute;
+  width: 132px;
+  height: 132px;
+  margin: 2px;
+  border-radius: 50%;
+  background-image: url("../css/style/img/star-red.png"); }
+
+.progress-red {
+  height: 180px;
+  width: 170px;
+  background: #ffffff;
+  position: absolute;
+  top: -15px;
+  left: 30px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+  -webkit-transform-origin: 110px 110px;
+  transform-origin: 110px 110px;
+  -webkit-transition: all .3s;
+  transition: all .3s; }
+
+.circle-out-green {
+  position: relative;
+  width: 136px;
+  height: 136px;
+  border-radius: 50%;
+  background: #232323;
+  overflow: hidden; }
+
+.circle-in-green {
+  position: absolute;
+  width: 132px;
+  height: 132px;
+  margin: 2px;
+  border-radius: 50%;
+  background-image: url("../css/style/img/green-top.png"); }
+
+.progress-green {
+  height: 250px;
+  width: 130px;
+  background: #ffffff;
+  position: absolute;
+  top: 0px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+  -webkit-transform-origin: 110px 110px;
+  transform-origin: 110px 110px;
+  -webkit-transition: all .3s;
+  transition: all .3s; }

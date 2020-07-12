@@ -1,0 +1,48 @@
+.wrapper {
+  position: absolute;
+  width: 750px;
+  z-index: 101;
+  height: 30px;
+  top: 30px;
+  left: 330px; }
+
+.progress-bar {
+  width: 100%;
+  background-color: #2c3b52;
+  padding: 3px;
+  border-radius: 10px; }
+
+.progress-bar-fill {
+  display: block;
+  height: 25px;
+  background-color: #ff1800;
+  border-radius: 10px;
+  -webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 80% 100%);
+  clip-path: polygon(0 100%, 0 0, 100% 0, 80% 100%);
+  -webkit-transition: width 500ms ease-in-out;
+  transition: width 500ms ease-in-out; }
+
+.text-progress-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 33px;
+  left: 342px;
+  z-index: 101; }
+
+.number-white {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-family: Arial,sans-serif;
+  font-size: 24px;
+  font-weight: bold; }
+
+.number-black {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  font-family: Arial,sans-serif;
+  font-size: 22px;
+  font-weight: bold; }

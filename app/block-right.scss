@@ -1,0 +1,54 @@
+.right-bottom-img{
+  position: absolute;
+  top:20px;
+  right: 190px;
+  text-align: center;
+}
+.right-bottom-img p{
+  color:#1f709a;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.right-bottom-text{
+  position: absolute;
+  top:25px;
+  right: 90px;
+  text-align: left;
+}
+.text-bottom{
+  position: relative;
+  color: #ffffff;
+  width: 150px;
+   padding: 0;
+  padding-left: 30px;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+
+}
+.text-bottom::after{
+  content: "";
+  position: absolute;
+  top:0;
+  left:0;
+  height:38px;
+  width: 26px;
+  background-image: url("../css/style/img/layer-pink.png");
+  background-repeat: no-repeat;
+  background-size: 26px 38px;
+  background-position: center center;
+}
+.text-pink{
+  color:#ff76ff;
+  margin: 0;
+  padding: 0;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.wrapper-pink{
+  position: absolute;
+  top:85px;
+  right: 60px;
+}

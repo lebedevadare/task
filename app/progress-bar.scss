@@ -1,0 +1,97 @@
+
+.wrapper-progress-bar{
+ width: 364px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  min-height: 100px;
+}
+
+.circle-out-blue {
+  position:relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #232323;
+  overflow: hidden;
+}
+.circle-in-blue {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  margin: 2px;
+  border-radius: 50%;
+  background-image: url("../css/style/img/fist.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 96px 96px;
+}
+.progress-blue {
+  height: 200px;
+  width: 200px;
+  background: #ffffff;
+  position: absolute;
+  top:-55px;
+  left: -30px;
+  transform: rotate(30deg);
+  transform-origin: 110px 110px;
+  transition: all .3s;
+}
+.circle-out-red {
+  position:relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #232323;
+  overflow: hidden;
+}
+.circle-in-red {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  margin: 2px;
+  border-radius: 50%;
+  background-image: url("../css/style/img/star-red.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 96px 96px;
+}
+.progress-red {
+  height: 125px;
+  width: 165px;
+  background: #ffffff;
+  position: absolute;
+  top:-15px;
+  left: 30px;
+  transform: rotate(30deg);
+  transform-origin: 110px 110px;
+  transition: all .3s;
+}
+.circle-out-green{
+  position:relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #232323;
+  overflow: hidden;
+}
+.circle-in-green {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  margin: 2px;
+  border-radius: 50%;
+  background-image: url("../css/style/img/green-top.png");
+  background-size: 96px 96px;
+  background-repeat: no-repeat;
+}
+.progress-green {
+  height: 125px;
+  width: 165px;
+  background: #ffffff;
+  position: absolute;
+  top: 0px;
+  transform: rotate(30deg);
+  transform-origin: 110px 110px;
+  transition: all .3s;
+}

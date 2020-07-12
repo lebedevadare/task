@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Тестовое задание</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="app/css/style/normalize.css">
+  <link rel="stylesheet" href="app/css/style.css" type="text/css">
+</head>
+
+<body>
+<main>
+<div class="block-bottom">
+  <time class="time-minute">2:13</time>
+  <time class="time">55</time>
+   <div class="wrapper-progress-bar">
+     <div class="circle-out-blue">
+        <div class="progress-blue"></div>
+        <div class="circle-in-blue" onclick="increaseProgress()"></div>
+     </div>
+
+      <div class="circle-out-red">
+         <div class="progress-red"></div>
+         <div class="circle-in-red" onclick="increaseProgress()"></div>
+      </div>
+
+      <div class="circle-out-green">
+         <div class="progress-green"></div>
+         <div class="circle-in-green" onclick="increaseProgress()"></div>
+       </div>
+  </div>
+   <div class="bottom-block">
+     <div class="block-text-arrow">
+        <p class="text-white">53,25M</p>
+        <p class="text-green">+17M%</p>
+     </div>
+     <div class="block-img-arrow">
+       <img class="img-arrow" src="app/css/style/img/arrow.png" width="32" height="39" alt="">
+       <p class="text text-dpc">DPC</p>
+     </div>
+     <div class="block-text-sword">
+        <p class="text-white">53,25M</p>
+        <p class="text-green">+10,7K%</p>
+     </div>
+      <div class="block-img-sword">
+       <img class="img-sword" src="app/css/style/img/sword.png" width="32" height="37" alt="">
+       <p class="text text-dps">DPS</p>
+     </div>
+     <div class="wrapper">
+        <div class="progress-bar">
+            <span class="progress-bar-fill" style="width: 40%"></span>
+        </div>
+     </div>
+     <div class="text-progress-bar">
+      <p class="number-white">62,153</p>
+       <p class="number-black">/254,150</p>
+     </div>
+     <div class ="character">
+       <img class="character-men" src="app/css/style/img/layer-men.png" width="100" height="132" alt="">
+       <div class="glasses">
+         <p class="text-lvl">999</p>
+         <p class="glasses-lvl">X10</p>
+       </div>
+       <div class="block-lvl orange-active">
+         <div class="wrapper-progress">
+              <p class="number-progress">655,555</p>
+              <p class="lvl-up">Lvl up</p>
+         </div>
+         <img class="arrow-img" src="app/css/style/img/arrows-white.png" width="18" height="18" alt="">
+       </div>
+     </div>
+     <section class="card">
+       <div class="wrapper-card">
+         <div class="circle-grey">
+           <span>1</span>
+         </div>
+         <div class="active-wrapper">
+         <img class="circle-ability" src="app/css/style/img/layer-green-circle.png" width="30" height="30" alt="">
+         <img class="girl-img" src="app/css/style/img/girl-green.png" width="90" height="90" alt="">
+          <div class="glasses-card">
+               <p class="text-lvl">999</p>
+               <p class="glasses-lvl">X10</p>
+          </div>
+          <div class="block-lvl card-block-lvl disable">
+          <div class="wrapper-progress">
+              <p class="number-progress">655,555</p>
+              <p class="lvl-up">Lvl up</p>
+          </div>
+             <img class="arrow-img-disable" src="app/css/style/img/arrows-grey.png" width="18" height="18" alt="">
+          </div>
+       </div>
+       </div>
+       <div class="wrapper-card">
+           <div class="circle-grey">
+                <span>2</span>
+           </div>
+        <div class="active-wrapper">
+           <img class="circle-ability" src="app/css/style/img/layer-blue-circle.png" width="30" height="30" alt="">
+           <img class="girl-img" src="app/css/style/img/orange-girl.png" width="90" height="90" alt="">
+            <div class="glasses-card">
+               <p class="text-lvl">999</p>
+               <p class="glasses-lvl">X10</p>
+            </div>
+
+            <div class="block-lvl card-block-lvl disable">
+                <div class="wrapper-progress">
+                    <p class="number-progress">655,555</p>
+                    <p class="lvl-up">Lvl up</p>
+                </div>
+               <img class="arrow-img-disable" src="app/css/style/img/arrows-grey.png" width="18" height="18" alt="">
+             </div>
+        </div>
+       </div>
+        <div class="wrapper-card">
+           <div class="circle-grey">
+                <span>3</span>
+           </div>
+          <div class="active-wrapper">
+           <img class="circle-ability" src="app/css/style/img/layer-red-circle.png" width="30" height="30" alt="">
+           <img class="girl-img" src="app/css/style/img/girl-fiolet.png" width="90" height="90" alt="">
+            <div class="glasses-card">
+               <p class="text-lvl">999</p>
+               <p class="glasses-lvl">X10</p>
+            </div>
+            <div class="block-lvl card-block-lvl disable">
+                <div class="wrapper-progress">
+                    <p class="number-progress">655,555</p>
+                    <p class="lvl-up">Lvl up</p>
+                </div>
+               <img class="arrow-img-disable" src="app/css/style/img/arrows-grey.png" width="18" height="18" alt="">
+             </div>
+          </div>
+       </div>
+        <div class="wrapper-card">
+           <div class="circle-grey">
+                <span>4</span>
+           </div>
+          <div class="active-wrapper active-ability-wrapper">
+           <img  class="circle-ability active-ability-circle" src="app/css/style/img/layer-fist-blue.png" width="30" height="30" alt="">
+           <img class="girl-img " src="app/css/style/img/girl-blond.png" width="90" height="90" alt="">
+            <div class="glasses-card">
+               <p class="text-lvl">999</p>
+               <p class="glasses-lvl">X10</p>
+            </div>
+            <div class="block-lvl card-block-lvl disable">
+                <div class="wrapper-progress">
+                    <p class="number-progress">655,555</p>
+                    <p class="lvl-up">Lvl up</p>
+                </div>
+              <img class="arrow-img-disable" src="app/css/style/img/arrows-grey.png" width="18" height="18" alt="">
+
+             </div>
+          </div>
+       </div>
+        <div class="wrapper-card">
+           <div class="circle-grey">
+                <span>5</span>
+           </div>
+          <div class="active-wrapper">
+           <img class="circle-ability" src="app/css/style/img/layer-red-men.png" width="30" height="30" alt="">
+           <img class="girl-img" src="app/css/style/img/girl-dark.png" alt="">
+            <div class="glasses-card">
+               <p class="text-lvl">999</p>
+               <p class="glasses-lvl">X10</p>
+            </div>
+            <div class="block-lvl card-block-lvl  disable">
+                <div class="wrapper-progress">
+                    <p class="number-progress">655,555</p>
+                    <p class="lvl-up">Lvl up</p>
+                </div>
+               <img class="arrow-img-disable" src="app/css/style/img/arrows-grey.png" width="18" height="18" alt="">
+             </div>
+          </div>
+       </div>
+       <div class="wrapper-card-disable">
+         <img src="app/css/style/img/lock.png" class="img-disable" width="50" height="119">
+       </div>
+     </section>
+     <div class="right-bottom-img">
+      <img src="app/css/style/img/fist-bottom.png" class="" width="38" height="40">
+       <p class="">AP</p>
+     </div>
+     <div class="right-bottom-text">
+       <p class="text-white">15,32K</p>
+        <p class="text-green">+52M%</p>
+     </div>
+     <div class="wrapper-pink">
+          <p class="text-bottom">569,658</p>
+          <p class="text-pink">/600,050</p>
+     </div>
+     <div class="wrapper-block-bottom">
+       <div class="block-grey block-disable">
+         <p class="disable-text">X1</p>
+       </div>
+       <div class="block-grey block-bottom-active">
+         <p class="disable-text text-bottom-active">buy X10</p>
+       </div>
+       <div class="block-grey block-disable">
+         <p class="disable-text">X50</p>
+       </div>
+       <div class="block-grey block-disable">
+         <p class="disable-text">X100</p>
+       </div>
+       <div class="block-grey block-disable">
+         <p class="disable-text">X250</p>
+       </div>
+       <div class="block-grey block-disable">
+         <p class="disable-text">X500</p>
+       </div>
+       <div class="block-grey block-disable">
+         <p class="disable-text">buy ALL</p>
+       </div>
+     </div>
+   </div>
+</div>
+
+</main>
+<script>
+  var progress = 30;
+  var progressEl = document.querySelector('.progress');
+  var increaseProgress = function() {
+  progress = progress + 10;
+  progressEl.style.transform = 'rotate('+progress+'deg)';
+}
+</script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+body {
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  background: url("../css/style/img/background.jpg") no-repeat center top fixed;
+  background-size: cover; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+body {
+  overflow: auto; }
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100%; }
+
+a {
+  text-decoration: none; }
+
+.block-bottom {
+  width: 100%;
+  margin-top: auto;
+  z-index: 99; }
